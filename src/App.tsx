@@ -1,8 +1,15 @@
 import React from 'react';
-function App() {
+
+import GlobalStyles from './styles/GlobalStyles';
+import Layout from './components/Layout';
+
+const App: React.FC = () => {
   return (
-    <h1>oie</h1>
+    <>
+      <Layout />
+      <GlobalStyles />
+    </>
   );
-}
+};
 
 export default App;
